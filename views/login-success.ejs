@@ -1,0 +1,20 @@
+<!-- views/login-success.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Exitoso</title>
+    <script>
+        // Redirigir automáticamente a /home después de 2 segundos
+        setTimeout(function() {
+            window.location.href = '/home/<%= responseData.empresa %>';
+        }, 2000);
+    </script>
+</head>
+<body>
+    <h1>Login Exitoso</h1>
+    <p>Redirigiendo a la página de inicio...</p>
+</body>
+</html>

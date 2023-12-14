@@ -1,0 +1,71 @@
+.content_car img {
+  margin: 0%;
+}
+.card_g10 {
+  position: sticky;
+  height: 264px;
+  width: auto;
+  top: 10px;
+  transform: translate(-910px, 460px);
+  z-index: 4;
+}
+.card_g11 {
+  position: sticky;
+  height: 264px;
+  width: auto;
+  top: 10px;
+  transform: translate(-790px, 371px);
+  z-index: 4;
+}
+
+.card_g12 {
+  position: sticky;
+  height: 264px;
+  width: auto;
+  top: 10px;
+  transform: translate(-666px, 100px);
+  z-index: 4;
+}
+.card_g13 {
+  position: sticky;
+  height: 264px;
+  width: auto;
+  top: 10px;
+  transform: translate(-545px, -169px);
+  z-index: 4;
+}
+
+.card_g14 {
+  position: sticky;
+  height: 264px;
+  width: auto;
+  top: 10px;
+  transform: translate(-423px, -437px);
+  z-index: 4;
+}
+
+.card_g20 {
+  position: sticky;
+  height: 180px;
+  width: auto;
+  top: 10px;
+  transform: translate(-1001px, 30px);
+  z-index: 4;
+}
+.card_g21 {
+  position: sticky;
+  height: 180px;
+  width: auto;
+  top: 10px;
+  transform: translate(-933px, -157px);
+  z-index: 4;
+}
+
+.card_g22 {
+  position: sticky;
+  height: 180px;
+  width: auto;
+  top: 10px;
+  transform: translate(-869px, -343px);
+  z-index: 4;
+}

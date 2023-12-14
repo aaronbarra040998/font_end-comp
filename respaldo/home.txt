@@ -1,0 +1,36 @@
+<!-- views/home.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+</head>
+<body>
+    <h1>Detalles de la Empresa</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Teléfono</th>
+                <th>Imagen</th>
+                <!-- Agrega más columnas según los datos de tu empresa -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><%= empresaDetails._id %></td>
+                <td><%= empresaDetails.nombre %></td>
+                <td><%= empresaDetails.email %></td>
+                <td><%= empresaDetails.telefono %></td>
+                <td><img src="<%= empresaDetails.imagen %>" alt="Imagen de la Empresa"></td>
+
+                <!-- Agrega más filas y columnas según los datos de tu empresa -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles_car.css" />
+    <link rel="stylesheet" href="assets/css/parking.css" />
+
+    <title>Parking</title>
+</head>
+
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-menu nav-container" id="nav-menu">
+            <div class="nav-shape"></div>
+
+            <div class="nav-close" id="nav-close">
+                <i class="bx bx-x"></i>
+            </div>
+
+            <div class="nav-data">
+                <div class="nav-mask">
+                    <img src="<%= empresaDetails.imagen %>" alt="" class="nav-img" />
+                </div>
+                <span class="nav-greeting">Bienvenido</span>
+                <h1 class="nav-name"><%= empresaDetails.nombre %></h1>
+            </div>
+
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#nivel1" class="nav-link active-link">
+                        <i class="bx bx-chevron-up"></i> Nivel 1
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#nivel2" class="nav-link">
+                        <i class="bx bx-chevron-down"></i>Nivel 2
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/logout" class="nav-link">
+                        <i class="bx bx-power-off"></i> Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main" id="main">
+        <header class="header" id="header">
+            <nav class="header-nav container">
+                <a href="#" class="header-logo"> Smart Parking </a>
+                <!-- Toggle button -->
+                <div class="header-toggle" id="header-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        </header>
+        <div>
+            <section class="section section-height container" id="nivel1">
+                <img src="assets/img/plan_map.png" class="map" alt="">
+                <div class="content_car">
+                    <img src="assets/img/car_g1.png" class="card_g10" alt="">
+                    <img src="assets/img/car_g1.png" class="card_g11" alt="">
+                    <img src="assets/img/car_g1.png" class="card_g12" alt="">
+                    <img src="assets/img/car_g1.png" class="card_g13" alt="">
+                    <img src="assets/img/car_g1.png" class="card_g14" alt="">
+                </div>
+
+            </section>
+        </div>
+        <section class="section section-height container" id="nivel2">
+            <img src="assets/img/plan_map2.png" class="map" alt="">
+            <div>
+                <img src="assets/img/car_g1.png" class="card_g20" alt="">
+                <img src="assets/img/car_g1.png" class="card_g21" alt="">
+                <img src="assets/img/car_g1.png" class="card_g22" alt="">
+            </div>
+        </section>
+        <script src="assets/js/parking.js"></script>
+        <script src="assets/js/car_action.js"></script>
+</body>
+
+</html>
